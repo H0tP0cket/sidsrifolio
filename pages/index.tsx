@@ -11,6 +11,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Siddharth Srinivasan </title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+            rel="preload"
+            href="/fonts/along-sans-medium-regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
       </Head>
       <Navbar />
       <main className="flex w-full flex-1 flex-col  pt-16 px-16">
@@ -24,7 +30,7 @@ const Home: NextPage = () => {
             deleteSpeed={100}
             delaySpeed={1000} />
         </div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Orci eu lobortis elementum nibh tellus molestie nunc non. Arcu cursus vitae congue mauris rhoncus. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Nisi quis eleifend quam adipiscing vitae proin sagittis. Id interdum velit laoreet id donec ultrices. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Aliquet risus feugiat in ante. Et tortor consequat id porta. Integer enim neque volutpat ac.
+        <div className = "text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Orci eu lobortis elementum nibh tellus molestie nunc non. Arcu cursus vitae congue mauris rhoncus. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Nisi quis eleifend quam adipiscing vitae proin sagittis. Id interdum velit laoreet id donec ultrices. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Aliquet risus feugiat in ante. Et tortor consequat id porta. Integer enim neque volutpat ac.
 
 Quam id leo in vitae turpis massa sed elementum tempus. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Vitae turpis massa sed elementum tempus egestas sed. Arcu ac tortor dignissim convallis aenean et tortor. Auctor elit sed vulputate mi sit amet mauris. Sapien eget mi proin sed libero. Et malesuada fames ac turpis egestas sed. Non nisi est sit amet facilisis magna etiam tempor orci. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Tellus elementum sagittis vitae et leo duis.
 

@@ -15,6 +15,7 @@ module.exports = {
           600: "#666666",
           700: "#4C4C4C",
           800: "#333333",
+          850: "#222222",
           900: "#191919",
         },
         blue: {
@@ -59,7 +60,7 @@ module.exports = {
         "1/1": "100%",
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+       sans: 'AlongSans'
       },
       fontSize: {
         xs: "0.75rem",

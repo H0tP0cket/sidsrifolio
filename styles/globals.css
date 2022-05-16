@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "AlongSans";
+    src: url("/fonts/along-sans-medium-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
