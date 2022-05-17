@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           />
       </Head>
       <Navbar />
-      <main className="flex w-full flex-1 flex-col  pt-16 px-16">
+      <main className="flex w-full flex-1 flex-col  pt-24 px-16">
         <div className="text-4xl font-bold text-teal-400">
           <h1>Hey I'm Sid Sri</h1>
           <Typewriter words={[ "A Web Developer", "And A God"]}
