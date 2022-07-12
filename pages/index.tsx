@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
-          href="/fonts/along-sans-medium-regular.ttf"
+          href="/fonts/modern.ttf"
           as="font"
           crossOrigin=""
         />
