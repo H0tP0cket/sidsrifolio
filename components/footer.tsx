@@ -9,7 +9,7 @@ function Footer() {
           
             
     
-          <div className="mr-4 text-md text-white">
+          <div className="mr-4 text-md text-white text-center">
             Designed & Built by Siddharth Srinivasan
           </div>
           

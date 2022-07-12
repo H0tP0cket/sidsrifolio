@@ -43,7 +43,7 @@ function Navbar() {
           <svg
            
             className={
-              'text-pink-900 ' +
+              'text-pink-800 ' +
               (open
                 ? ' hidden'
                 : ' animate__animated animate__lightSpeedInLeft animate__faster')
@@ -61,7 +61,7 @@ function Navbar() {
           </svg>
           <svg
                 className={
-                  "text-pink-900    " +
+                  "text-pink-800    " +
                   (!open
                     ? " hidden"
                     : " animate__animated animate__lightSpeedInRight animate__faster ")

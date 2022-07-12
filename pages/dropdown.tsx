@@ -24,26 +24,27 @@ const Home: NextPage = () => {
   
     
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 py-2 ">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 py-2">
 
       
       
 
     
       <Navbar />
-      <main className="flex w-full flex-1 flex-col  px-16 pt-24">
-        <nav className = "text-4xl text-white ">
-            <a href = "#">HOME</a>
-            <a href = "#">ABOUT</a>
-            <a href = "#">PROJECTS</a>
-            <a href = "#">CONTACT</a>
+      <main className=" w-full flex-1  px-16 pt-24 ">
+        <nav className = "text-8xl text-white ">
+            <a href = "#" className = "block pb-8 z-80 ">HOME</a>
+            <a href = "#"className = "block pb-8">ABOUT</a>
+            <a href = "#"className = "block pb-8">PROJECTS</a>
+            <a href = "#"className = "block pb-8">CONTACT</a>
         </nav>
       </main>
 
-      <Footer/>
       
-
+      
+      <Footer/>
     </div> 
+    
     
   
     
