@@ -4,9 +4,10 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 import Link from 'next/link'
-import Slogo from '../public/halalimage.png'
+import Slogo from '../public/Slogo3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+
 
 
 
@@ -21,6 +22,7 @@ function Navbar() {
     return () => window.removeEventListener('scroll', scrollHandler)
   }, [top])
   return (
+    <>
     <nav
       className={` fixed top-0 z-10 flex h-24 w-full items-center   transition duration-300 ease-in-out md:bg-opacity-90 ${
         !top && 'bg-gray-850 shadow-lg backdrop-blur'
@@ -77,7 +79,21 @@ function Navbar() {
         </button>
         
       </div>
+      
     </nav>
+    <div className={(open
+                ? "flex animate__animated animate__fadeIn    "
+                : " hidden")}  >
+        
+        <nav className = "absolute left-24 top-40  text-8xl text-white ">
+            <a href = "#" className = "halal block pb-8 animate__animated animate__slideInRight animate__faster  ">HOME</a>
+            <a href = "#"className = "halal block pb-8 animate__animated animate__slideInRight animate__fast ">ABOUT</a>
+            <a href = "#"className = " halal block pb-8 animate__animated animate__slideInRight  ">PROJECTS</a>
+            <a href = "#"className = " halal block pb-8 animate__animated animate__slideInRight animate__slow">CONTACT</a>
+        </nav>
+      
+      </div>
+    </>
   )
 }
 
