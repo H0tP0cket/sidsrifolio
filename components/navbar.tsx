@@ -28,7 +28,7 @@ function Navbar() {
         !top && 'bg-gray-850 shadow-lg backdrop-blur'
       }`}
     >
-      <div className="relative flex w-full justify-between">
+      <div className="relative max-w-8xl mx-auto flex w-full justify-between">
         {/* <div className="w-full flex-grow flex-row justify-between md:w-auto mr-4"> !!!!!! mr-4 */}
         {/* Logo */}
         <Link href="/">
@@ -85,7 +85,7 @@ function Navbar() {
                 ? "flex animate__animated animate__fadeIn    "
                 : " hidden")}  >
         
-        <nav className = "absolute left-24 top-40  text-8xl text-white ">
+        <nav className = "absolute left-36 top-40  text-8xl text-white ">
             <a href = "#" className = "halal block pb-8 animate__animated animate__slideInRight animate__faster  ">HOME</a>
             <a href = "#"className = "halal block pb-8 animate__animated animate__slideInRight animate__fast ">ABOUT</a>
             <a href = "#"className = " halal block pb-8 animate__animated animate__slideInRight  ">PROJECTS</a>

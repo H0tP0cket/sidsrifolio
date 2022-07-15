@@ -131,6 +131,9 @@ module.exports = {
       zIndex: {
         "-1": "-1",
       },
+      maxWidth: {
+        '8xl': "140rem"
+      },
     },
   },
   variants: {
