@@ -7,13 +7,15 @@ import Link from 'next/link'
 import Slogo from '../public/Slogo3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-
+import useRouter from 'next/Router';
 
 
 
 function Navbar() {
   const [top, setTop] = useState(true)
   const [open, setOpen] = useState(false)
+  
+
   useEffect(() => {
     const scrollHandler = () => {
       window.pageYOffset > 14 ? setTop(false) : setTop(true)
@@ -39,8 +41,10 @@ function Navbar() {
         
         <button
           onClick={() => setOpen(!open)}
+           
           className="leading-none focus:outline-none pr-20 "
           aria-label="Navbar Toggle"
+          
         >
           <svg
            
@@ -85,12 +89,7 @@ function Navbar() {
                 ? "flex animate__animated animate__fadeIn    "
                 : " hidden")}  >
         
-        <nav className = "absolute left-36 top-40  text-8xl text-white ">
-            <a href = "#" className = "halal block pb-8 animate__animated animate__slideInRight animate__faster  ">HOME</a>
-            <a href = "#"className = "halal block pb-8 animate__animated animate__slideInRight animate__fast ">ABOUT</a>
-            <a href = "#"className = " halal block pb-8 animate__animated animate__slideInRight  ">PROJECTS</a>
-            <a href = "#"className = " halal block pb-8 animate__animated animate__slideInRight animate__slow">CONTACT</a>
-        </nav>
+       
       
       </div>
     </>
