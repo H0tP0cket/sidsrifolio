@@ -44,8 +44,8 @@ const Home: NextPage = () => {
       ) : (
         <>
           <Navbar />
-          <main className="flex w-full flex-1 flex-col  px-16 pt-24">
-            <div></div>
+          <main className="flex w-full max-w-8xl flex-1  flex-col px-16 pt-24">
+            <div className="text-2xl text-white">fuck my idck off </div>
           </main>
 
           <Footer />
