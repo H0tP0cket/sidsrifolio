@@ -25,7 +25,7 @@ function Navbar() {
     <>
       <nav
         className={` fixed top-0 z-10 flex h-24 w-full items-center   transition duration-300 ease-in-out md:bg-opacity-90 ${
-          !top && 'bg-gray-850 shadow-lg backdrop-blur'
+          !top && ' bg-gray-850 '
         }`}
       >
         <div className="relative mx-auto flex w-full max-w-8xl justify-between">
@@ -83,7 +83,7 @@ function Navbar() {
         <div
           className={
             open
-              ? 'absolute top-40 left-56  z-50 max-w-8xl text-8xl text-white blur-none   '
+              ? 'fixed top-40 left-56  z-50 max-w-8xl text-8xl text-white blur-none   '
               : ' hidden'
           }
         >

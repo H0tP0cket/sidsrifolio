@@ -45,7 +45,82 @@ const Home: NextPage = () => {
         <>
           <Navbar />
           <main className="flex w-full max-w-8xl flex-1  flex-col px-16 pt-24">
-            <div className="text-2xl text-white">fuck my idck off </div>
+            <div className="text-7xl text-pink-900">
+              Lorem ipsum dolor sit amet, consectetur adipisLorem ipsum dolor
+              sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
+              consectetur adipisLorem ipsum dolor sit amet, consectetur
+              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
+              dolor sit amet, consectetur adipis
+            </div>
           </main>
 
           <Footer />
