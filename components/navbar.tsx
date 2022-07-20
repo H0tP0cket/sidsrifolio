@@ -7,7 +7,7 @@ import Link from 'next/link'
 import Slogo from '../public/Slogo3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import useRouter from 'next/Router'
+
 import Dropdown from '../pages/dropdown'
 
 function Navbar() {
@@ -32,7 +32,10 @@ function Navbar() {
           {/* <div className="w-full flex-grow flex-row justify-between md:w-auto mr-4"> !!!!!! mr-4 */}
           {/* Logo */}
           <Link href="/">
-            <a className="block pl-8" aria-label="">
+            <a
+              className="animate__animated animate__fadeInRight  block pl-8"
+              aria-label=""
+            >
               <Image src={Slogo} width="96px" height="68px" alt="Logo" />
             </a>
           </Link>
@@ -47,7 +50,7 @@ function Navbar() {
                 'text-pink-800 ' +
                 (open
                   ? ' hidden'
-                  : ' animate__animated animate__lightSpeedInLeft animate__faster')
+                  : ' animate__animated animate__fadeInLeft animate__faster')
               }
               xmlns="http://www.w3.org/2000/svg"
               width="64"
@@ -65,7 +68,7 @@ function Navbar() {
                 'text-pink-800    ' +
                 (!open
                   ? ' hidden'
-                  : ' animate__animated animate__lightSpeedInRight animate__faster ')
+                  : ' animate__animated animate__fadeInRight animate__faster ')
               }
               xmlns="http://www.w3.org/2000/svg"
               width="64"
@@ -79,7 +82,7 @@ function Navbar() {
         </div>
       </nav>
       <div className="">
-        <div className={open ? 'overlay  ' : 'hidden'}></div>
+        <div className={open ? 'overlay  ' : '  hidden'}></div>
         <div
           className={
             open
