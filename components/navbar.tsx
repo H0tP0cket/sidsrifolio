@@ -8,8 +8,6 @@ import Slogo from '../public/Slogo3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
-import Dropdown from '../pages/dropdown'
-
 function Navbar() {
   const [top, setTop] = useState(true)
   const [open, setOpen] = useState(false)
