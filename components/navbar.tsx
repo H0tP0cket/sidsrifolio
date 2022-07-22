@@ -23,7 +23,7 @@ function Navbar() {
     <>
       <nav
         className={` fixed top-0 z-10 flex h-24 w-full items-center   transition duration-300 ease-in-out md:bg-opacity-90 ${
-          !top && ' bg-gray-850 '
+          !top && ' bg-gray-900 backdrop-blur-sm '
         }`}
       >
         <div className="relative mx-auto flex w-full max-w-8xl justify-between">
@@ -31,7 +31,7 @@ function Navbar() {
           {/* Logo */}
           <Link href="/">
             <a
-              className="animate__animated animate__fadeInRight  block pl-8"
+              className="animate__animated animate__slideInDown  block pl-8"
               aria-label=""
             >
               <Image src={Slogo} width="96px" height="68px" alt="Logo" />
@@ -46,9 +46,7 @@ function Navbar() {
             <svg
               className={
                 'text-pink-800 ' +
-                (open
-                  ? ' hidden'
-                  : ' animate__animated animate__fadeInLeft animate__faster')
+                (open ? ' hidden' : ' animate__animated animate__fadeInLeft ')
               }
               xmlns="http://www.w3.org/2000/svg"
               width="64"

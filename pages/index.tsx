@@ -7,15 +7,31 @@ import PacmanLoader from 'react-spinners/PacmanLoader'
 import React, { useState, useEffect } from 'react'
 import 'animate.css'
 import Footer from '../components/footer'
+import { motion } from 'framer-motion'
 
-const Home: NextPage = () => {
+const draw = {
+  hidden: { pathLength: 0, opacity: 0 },
+  visible: (i: number) => {
+    const delay = 1 + i * 0.5
+    return {
+      pathLength: 1,
+      opacity: 1,
+      transition: {
+        pathLength: { delay, type: 'spring', duration: 1.5, bounce: 0 },
+        opacity: { delay, duration: 0.01 },
+      },
+    }
+  },
+}
+
+function Home() {
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1000)
+    }, 0)
   }, [])
 
   return (
@@ -23,14 +39,14 @@ const Home: NextPage = () => {
       <Head>
         <title>Siddharth Srinivasan </title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preload" href="/fonts/modern.ttf" as="font" crossOrigin="" />
+        <link rel="preload" href="/public/fonts/Helvetica.ttf" as="font" crossOrigin="" />
       </Head>
       {loading ? (
         <>
           <div className="pb-12">
-            <PacmanLoader color={'#08fdd8'} loading={loading} size={100} />
+            <PacmanLoader color={'#FF006F'} loading={loading} size={100} />
           </div>
-          <div className="pt-20 pl-16 text-4xl font-bold text-teal-400">
+          <div className="pt-20 pl-16 text-4xl font-bold text-pink-800">
             <Typewriter
               words={['loading...']}
               cursor
@@ -45,28 +61,8 @@ const Home: NextPage = () => {
         <>
           <Navbar />
           <main className="flex w-full max-w-8xl flex-1  flex-col px-16 pt-24">
-            <div className="text-7xl text-pink-900">
-              Lorem ipsum dolor sit amet, consectetur adipisLorem ipsum dolor
-              sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
-              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
-              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
-              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
-              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
-              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
-              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
-              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
-              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
-              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
-              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
-              adipisLorem ipsum dolor sit amet, consectetur adipisLorem ipsum
-              dolor sit amet, consectetur adipisLorem ipsum dolor sit amet,
-              consectetur adipisLorem ipsum dolor sit amet, consectetur
+            <div className=" pt-40 font-halal ">
+              Hi I'm Siddharth Srinivasan
             </div>
           </main>
 

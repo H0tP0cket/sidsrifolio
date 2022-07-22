@@ -52,3 +52,34 @@
     to {background-color: #222222;}
   }
 
+
+  .effect{
+    position: relative;
+    font-size: 4em;
+    color: #fff;
+    overflow:hidden;
+  }
+.effect:before {
+    content : '';
+    position: absolute;
+    left:120%;
+    width: 120%;
+    height: 100%;
+
+background:linear-gradient(90deg, transparent 0%, #191919 5%, #191919 100%);
+animation: animate 10s linear forwards;
+
+
+}
+
+@keyframes animate {
+    0%{
+        left: -20%;
+    }
+    50%{
+        left: 120%;
+    }
+    
+    
+}
+
