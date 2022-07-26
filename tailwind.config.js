@@ -67,8 +67,7 @@ module.exports = {
       },
       fontFamily: {
         sans: 'AlongSans',
-        halal: 'sf mono'
-        
+        mono: '',
       },
       fontSize: {
         xs: '0.75rem',

@@ -31,7 +31,7 @@ function Home() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 0)
+    }, 500)
   }, [])
 
   return (
@@ -39,7 +39,12 @@ function Home() {
       <Head>
         <title>Siddharth Srinivasan </title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preload" href="/public/fonts/Helvetica.ttf" as="font" crossOrigin="" />
+        <link
+          rel="preload"
+          href="/public/fonts/Helveticaimage.png.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       {loading ? (
         <>
@@ -61,8 +66,14 @@ function Home() {
         <>
           <Navbar />
           <main className="flex w-full max-w-8xl flex-1  flex-col px-16 pt-24">
-            <div className=" pt-40 font-halal ">
-              Hi I'm Siddharth Srinivasan
+            <div className=" effect left-56 pt-32 font-mono font-bold text-gray-200  ">
+              <span className=" pt-26  justify-left block text-lg font-semibold text-pink-800">
+                Hey I'm
+              </span>{' '}
+              Siddharth Srinivasan.
+              <span className="effects block text-gray-400">
+                I do stuff on the web.
+              </span>
             </div>
           </main>
 
