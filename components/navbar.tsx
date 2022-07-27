@@ -88,25 +88,25 @@ function Navbar() {
         >
           <a
             href="/Home"
-            className="halal animate__animated animate__backInRight animate__faster block pb-8  "
+            className="halal animate__animated animate__backInRight  animate__faster block pb-8 "
           >
             HOME
           </a>
           <a
             href="/About"
-            className="halal animate__animated animate__backInRight animate__fast block pb-8 "
+            className="halal animate__animated animate__backInRight  animate__fast  block pb-8 "
           >
             ABOUT
           </a>
           <a
             href="/Projects"
-            className=" halal animate__animated animate__backInRight block pb-8  "
+            className=" halal animate__animated animate__backInRight fart block pb-8 "
           >
             PROJECTS
           </a>
           <a
             href="/contact"
-            className=" halal animate__animated animate__backInRight animate__slow block pb-8"
+            className=" halal animate__animated animate__backInRight  farts block pb-8"
           >
             CONTACT{' '}
           </a>
