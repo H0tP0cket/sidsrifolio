@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={` fixed top-0 z-10 flex h-24 w-full items-center   transition duration-300 ease-in-out md:bg-opacity-90 ${
+        className={` fixed top-0 z-10 flex h-24 w-full  items-center   transition duration-300 ease-in-out md:bg-opacity-90 ${
           !top && ' bg-gray-900 backdrop-blur-sm '
         }`}
       >

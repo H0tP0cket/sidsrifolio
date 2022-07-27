@@ -54,8 +54,8 @@
 .effect:before {
   content: '';
   position: absolute;
-  left: 120%;
-  width: 120%;
+  left: 100%;
+  width: 100%;
   height: 100%;
 
   background: linear-gradient(90deg, transparent 0%, #191919 5%, #191919 100%);
@@ -78,10 +78,25 @@
 .effects:before {
   content: '';
   position: absolute;
-  left: 120%;
-  width: 120%;
+  left: 100%;
+  width: 100%;
   height: 100%;
-
+  
   background: linear-gradient(90deg, transparent 0%, #191919 5%, #191919 100%);
   animation: animate 10s linear forwards;
+  animation-delay:1s
 }
+
+::-moz-selection {
+  background: rgba(255, 255, 255, 0.2);
+}
+::-webkit-selection {
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+}
+*{
+  overflow-x:hidden;
+}
+

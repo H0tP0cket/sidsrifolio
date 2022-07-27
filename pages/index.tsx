@@ -9,29 +9,23 @@ import 'animate.css'
 import Footer from '../components/footer'
 import { motion } from 'framer-motion'
 
-const draw = {
-  hidden: { pathLength: 0, opacity: 0 },
-  visible: (i: number) => {
-    const delay = 1 + i * 0.5
-    return {
-      pathLength: 1,
-      opacity: 1,
-      transition: {
-        pathLength: { delay, type: 'spring', duration: 1.5, bounce: 0 },
-        opacity: { delay, duration: 0.01 },
-      },
-    }
-  },
-}
+import Socials from '../components/socials'
 
 function Home() {
   const [loading, setLoading] = useState(false)
+  const [visible, setVisible] = useState(false)
 
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 500)
+    }, 0)
+  }, [])
+  useEffect(() => {
+    setVisible(true)
+    setTimeout(() => {
+      setVisible(false)
+    }, 1000)
   }, [])
 
   return (
@@ -48,7 +42,7 @@ function Home() {
       </Head>
       {loading ? (
         <>
-          <div className="pb-12">
+          <div className=" pb-12">
             <PacmanLoader color={'#FF006F'} loading={loading} size={100} />
           </div>
           <div className="pt-20 pl-16 text-4xl font-bold text-pink-800">
@@ -66,17 +60,25 @@ function Home() {
         <>
           <Navbar />
           <main className="flex w-full max-w-8xl flex-1  flex-col px-16 pt-24">
-            <div className=" effect left-56 pt-32 font-mono font-bold text-gray-200  ">
+            <div className=" effect left-56 pt-80 font-mono font-bold text-gray-300  ">
               <span className=" pt-26  justify-left block text-lg font-semibold text-pink-800">
                 Hey I'm
               </span>{' '}
               Siddharth Srinivasan.
-              <span className="effects block text-gray-400">
+              <span
+                className={
+                  !visible
+                    ? 'effects block  font-mono font-bold text-gray-400'
+                    : ''
+                }
+              >
                 I do stuff on the web.
               </span>
             </div>
           </main>
-
+          <div className="flex w-full items-end justify-end  pr-20 ">
+            <Socials />
+          </div>
           <Footer />
         </>
       )}
