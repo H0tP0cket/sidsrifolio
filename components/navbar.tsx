@@ -82,7 +82,7 @@ function Navbar() {
         <div
           className={
             open
-              ? 'fixed top-40 left-56  z-50 max-w-8xl text-8xl text-white blur-none   '
+              ? 'fixed top-40 right-20 z-50  max-w-8xl text-8xl text-white blur-none sm:left-56   '
               : ' hidden'
           }
         >
