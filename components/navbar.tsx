@@ -64,7 +64,7 @@ function Navbar() {
                 'text-pink-800    ' +
                 (!open
                   ? ' hidden'
-                  : ' animate__animated animate__fadeInRight animate__faster ')
+                  : ' animate__animated animate__lightSpeedInRight animate__faster ')
               }
               xmlns="http://www.w3.org/2000/svg"
               width="64"

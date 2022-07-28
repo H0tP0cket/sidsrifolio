@@ -6,11 +6,8 @@ import PacmanLoader from 'react-spinners/PacmanLoader'
 import React, { useState, useEffect } from 'react'
 import 'animate.css'
 
-import 'animate.css'
-
 function Loader() {
   const [loading, setLoading] = useState(false)
-
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
@@ -19,8 +16,13 @@ function Loader() {
   }, [])
   return (
     <>
-      <div className=" pb-12">
-        <PacmanLoader color={'#FF006F'} loading={loading} size={100} />
+      <div className=" unstyled pb-12">
+        <PacmanLoader
+          className="unstyled "
+          color={'#FF006F'}
+          loading={loading}
+          size={100}
+        />
       </div>
       <div className="pt-20 pl-16 text-4xl font-bold text-pink-800">
         <Typewriter

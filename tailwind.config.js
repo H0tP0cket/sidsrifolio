@@ -67,7 +67,7 @@ module.exports = {
       },
       fontFamily: {
         sans: 'AlongSans',
-        mono: '',
+        cool: 'DancingScript',
       },
       fontSize: {
         xs: '0.75rem',
@@ -81,6 +81,7 @@ module.exports = {
         '5xl': '3.25rem',
         '6xl': '5.5rem',
       },
+
       inset: {
         '1/2': '50%',
         full: '100%',

@@ -10,17 +10,16 @@ import Footer from '../components/footer'
 
 import Opener from './opener'
 import Loader from './loading'
+import About from './about'
 
 function Home() {
   const [loading, setLoading] = useState(false)
-
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 800)
+    }, 1000)
   }, [])
-
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 py-2 ">
       <Head>
@@ -41,6 +40,7 @@ function Home() {
         <>
           <Navbar />
           <Opener />
+          <About />
           <Footer />
         </>
       )}
