@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 import Link from 'next/link'
-import Slogo from '../public/Slogo3.png'
+import Slogo from '../public/logos/Slogo3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
@@ -82,7 +82,7 @@ function Navbar() {
         <div
           className={
             open
-              ? 'fixed top-40 right-20 z-50  max-w-8xl text-8xl text-white blur-none md:left-56   '
+              ? 'fixed top-40 right-20 z-50  max-w-8xl text-5xl text-white blur-none md:left-56 md:text-8xl  '
               : ' hidden'
           }
         >
