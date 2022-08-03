@@ -8,7 +8,7 @@ function Opener() {
   return (
     <>
       <main className=" md:w- flex w-full max-w-8xl flex-1   flex-col  pr-56 pt-24 md:static  ">
-        <div className=" effect left-20 pt-40 font-sans font-bold text-gray-300 md:left-56 md:pt-80  ">
+        <div className=" effect left-20 pt-40 font-sans font-bold text-gray-350 md:left-56 md:pt-80  ">
           <span className=" pt-26  justify-left block text-lg font-semibold text-pink-800 md:text-lg">
             Hey I'm
           </span>

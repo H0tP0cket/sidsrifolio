@@ -133,3 +133,19 @@ content: "";
   .jalal {
     border: 4px solid #FF0090;
   }
+
+
+
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #E3CCD4;
+    
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #191919;
+}
+
+
+

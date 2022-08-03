@@ -21,7 +21,7 @@ function Home() {
     }, 1000)
   }, [])
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 py-2 ">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900  ">
       <Head>
         <title>Siddharth Srinivasan </title>
         <link rel="icon" href="/favicon.ico" />
